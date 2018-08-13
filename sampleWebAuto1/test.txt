@@ -1,0 +1,12 @@
+*** Settings ***
+Variables       test_data.yaml
+Library         Testcase.Testcase001
+Library         Collections
+
+*** Testcases ***
+
+Testcase001
+    [Documentation]      A simple Application for hover functionality
+    setup
+    test
+    cleanup

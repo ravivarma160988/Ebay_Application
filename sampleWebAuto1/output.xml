@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20180813 23:19:26.996" generator="Robot 3.0.4 (Python 2.7.15 on win32)">
+<suite source="C:\python\sampleWebAuto1\test.txt" id="s1" name="Test">
+<test id="s1-t1" name="Testcase001">
+<kw name="Setup" library="Testcase.Testcase001">
+<msg timestamp="20180813 23:19:27.116" level="INFO">Testcase setup section</msg>
+<msg timestamp="20180813 23:19:27.116" level="INFO">Username : ravi</msg>
+<msg timestamp="20180813 23:19:27.116" level="INFO">Password : 12345</msg>
+<status status="PASS" endtime="20180813 23:19:59.332" starttime="20180813 23:19:27.115"></status>
+</kw>
+<kw name="Test" library="Testcase.Testcase001">
+<status status="PASS" endtime="20180813 23:19:59.335" starttime="20180813 23:19:59.334"></status>
+</kw>
+<kw name="Cleanup" library="Testcase.Testcase001">
+<status status="PASS" endtime="20180813 23:19:59.338" starttime="20180813 23:19:59.336"></status>
+</kw>
+<doc>A simple Application for hover functionality</doc>
+<status status="PASS" endtime="20180813 23:19:59.339" critical="yes" starttime="20180813 23:19:27.114"></status>
+</test>
+<status status="PASS" endtime="20180813 23:19:59.346" starttime="20180813 23:19:26.998"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Test" pass="1">Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
